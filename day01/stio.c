@@ -6,7 +6,12 @@
  */
 
 #include <stdio.h>
+#include <stdlib.h>
 int main(){
-    printf("鏍囧噯杈撳嚭");
+    float f;
+    printf("请输入一个小数:");
+    scanf("%f", &f);
+    printf("输入的小数是: %f", f);
+    system("pause");
     return 0;
 }
